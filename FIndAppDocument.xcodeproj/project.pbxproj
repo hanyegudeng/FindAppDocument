@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE32DAEF227EDE37003FDB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32DAEE227EDE37003FDB06 /* AppDelegate.swift */; };
+		AE32DAF1227EDE37003FDB06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32DAF0227EDE37003FDB06 /* ViewController.swift */; };
+		AE32DAF3227EDE38003FDB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE32DAF2227EDE38003FDB06 /* Assets.xcassets */; };
+		AE32DAF6227EDE38003FDB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE32DAF4227EDE38003FDB06 /* Main.storyboard */; };
+		AE32DAFF227EE722003FDB06 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32DAFE227EE722003FDB06 /* PopView.swift */; };
+		AE32DB06227EE890003FDB06 /* MainListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32DB04227EE890003FDB06 /* MainListVC.swift */; };
+		AE32DB07227EE890003FDB06 /* MainListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE32DB05227EE890003FDB06 /* MainListVC.xib */; };
+		AECFA9852282C27100753016 /* ps.sh in Resources */ = {isa = PBXBuildFile; fileRef = AECFA9842282C27100753016 /* ps.sh */; };
+		AECFA9872282D90300753016 /* open.sh in Resources */ = {isa = PBXBuildFile; fileRef = AECFA9862282D90300753016 /* open.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE32DAEB227EDE37003FDB06 /* Open App Document.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open App Document.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE32DAEE227EDE37003FDB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE32DAF0227EDE37003FDB06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE32DAF2227EDE38003FDB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE32DAF5227EDE38003FDB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE32DAF7227EDE38003FDB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE32DAF8227EDE38003FDB06 /* FIndAppDocument.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FIndAppDocument.entitlements; sourceTree = "<group>"; };
+		AE32DAFE227EE722003FDB06 /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
+		AE32DB04227EE890003FDB06 /* MainListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListVC.swift; sourceTree = "<group>"; };
+		AE32DB05227EE890003FDB06 /* MainListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainListVC.xib; sourceTree = "<group>"; };
+		AECFA9842282C27100753016 /* ps.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ps.sh; sourceTree = "<group>"; };
+		AECFA9862282D90300753016 /* open.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = open.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE32DAE8227EDE37003FDB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE32DAE2227EDE37003FDB06 = {
+			isa = PBXGroup;
+			children = (
+				AE32DAED227EDE37003FDB06 /* FIndAppDocument */,
+				AE32DAEC227EDE37003FDB06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE32DAEC227EDE37003FDB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE32DAEB227EDE37003FDB06 /* Open App Document.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE32DAED227EDE37003FDB06 /* FIndAppDocument */ = {
+			isa = PBXGroup;
+			children = (
+				AE32DAEE227EDE37003FDB06 /* AppDelegate.swift */,
+				AECFA9842282C27100753016 /* ps.sh */,
+				AECFA9862282D90300753016 /* open.sh */,
+				AE32DAF0227EDE37003FDB06 /* ViewController.swift */,
+				AE32DAF2227EDE38003FDB06 /* Assets.xcassets */,
+				AE32DAF4227EDE38003FDB06 /* Main.storyboard */,
+				AE32DAF7227EDE38003FDB06 /* Info.plist */,
+				AE32DAF8227EDE38003FDB06 /* FIndAppDocument.entitlements */,
+				AE32DAFE227EE722003FDB06 /* PopView.swift */,
+				AE32DB04227EE890003FDB06 /* MainListVC.swift */,
+				AE32DB05227EE890003FDB06 /* MainListVC.xib */,
+			);
+			path = FIndAppDocument;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE32DAEA227EDE37003FDB06 /* FIndAppDocument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE32DAFB227EDE38003FDB06 /* Build configuration list for PBXNativeTarget "FIndAppDocument" */;
+			buildPhases = (
+				AE32DAE7227EDE37003FDB06 /* Sources */,
+				AE32DAE8227EDE37003FDB06 /* Frameworks */,
+				AE32DAE9227EDE37003FDB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FIndAppDocument;
+			productName = FIndAppDocument;
+			productReference = AE32DAEB227EDE37003FDB06 /* Open App Document.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE32DAE3227EDE37003FDB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Higgs;
+				TargetAttributes = {
+					AE32DAEA227EDE37003FDB06 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AE32DAE6227EDE37003FDB06 /* Build configuration list for PBXProject "FIndAppDocument" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE32DAE2227EDE37003FDB06;
+			productRefGroup = AE32DAEC227EDE37003FDB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE32DAEA227EDE37003FDB06 /* FIndAppDocument */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE32DAE9227EDE37003FDB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE32DB07227EE890003FDB06 /* MainListVC.xib in Resources */,
+				AECFA9852282C27100753016 /* ps.sh in Resources */,
+				AE32DAF3227EDE38003FDB06 /* Assets.xcassets in Resources */,
+				AECFA9872282D90300753016 /* open.sh in Resources */,
+				AE32DAF6227EDE38003FDB06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE32DAE7227EDE37003FDB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE32DAF1227EDE37003FDB06 /* ViewController.swift in Sources */,
+				AE32DAFF227EE722003FDB06 /* PopView.swift in Sources */,
+				AE32DB06227EE890003FDB06 /* MainListVC.swift in Sources */,
+				AE32DAEF227EDE37003FDB06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE32DAF4227EDE38003FDB06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE32DAF5227EDE38003FDB06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE32DAF9227EDE38003FDB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE32DAFA227EDE38003FDB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AE32DAFC227EDE38003FDB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FIndAppDocument/FIndAppDocument.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FIndAppDocument/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.higgs.FIndAppDocument;
+				PRODUCT_NAME = "Open App Document";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE32DAFD227EDE38003FDB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FIndAppDocument/FIndAppDocument.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FIndAppDocument/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.higgs.FIndAppDocument;
+				PRODUCT_NAME = "Open App Document";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE32DAE6227EDE37003FDB06 /* Build configuration list for PBXProject "FIndAppDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE32DAF9227EDE38003FDB06 /* Debug */,
+				AE32DAFA227EDE38003FDB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE32DAFB227EDE38003FDB06 /* Build configuration list for PBXNativeTarget "FIndAppDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE32DAFC227EDE38003FDB06 /* Debug */,
+				AE32DAFD227EDE38003FDB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE32DAE3227EDE37003FDB06 /* Project object */;
+}
