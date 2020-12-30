@@ -16,6 +16,9 @@ class ViewController: NSViewController {
         
     }
 
+    override func viewWillAppear() {
+        super.viewWillAppear()
+    }
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.

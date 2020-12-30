@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0D1FEC25493FF000611185 /* dns.scpt in Resources */ = {isa = PBXBuildFile; fileRef = AE0D1FEB25493FF000611185 /* dns.scpt */; };
 		AE32DAEF227EDE37003FDB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32DAEE227EDE37003FDB06 /* AppDelegate.swift */; };
 		AE32DAF1227EDE37003FDB06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32DAF0227EDE37003FDB06 /* ViewController.swift */; };
 		AE32DAF3227EDE38003FDB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE32DAF2227EDE38003FDB06 /* Assets.xcassets */; };
@@ -14,11 +15,15 @@
 		AE32DAFF227EE722003FDB06 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32DAFE227EE722003FDB06 /* PopView.swift */; };
 		AE32DB06227EE890003FDB06 /* MainListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32DB04227EE890003FDB06 /* MainListVC.swift */; };
 		AE32DB07227EE890003FDB06 /* MainListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE32DB05227EE890003FDB06 /* MainListVC.xib */; };
+		AE750F63259C257F00D3D969 /* home.sh in Resources */ = {isa = PBXBuildFile; fileRef = AE750F61259C257E00D3D969 /* home.sh */; };
+		AE750F64259C257F00D3D969 /* company.sh in Resources */ = {isa = PBXBuildFile; fileRef = AE750F62259C257F00D3D969 /* company.sh */; };
+		AE7714E72549437F000BC748 /* dns.sh in Resources */ = {isa = PBXBuildFile; fileRef = AE7714E62549437F000BC748 /* dns.sh */; };
 		AECFA9852282C27100753016 /* ps.sh in Resources */ = {isa = PBXBuildFile; fileRef = AECFA9842282C27100753016 /* ps.sh */; };
 		AECFA9872282D90300753016 /* open.sh in Resources */ = {isa = PBXBuildFile; fileRef = AECFA9862282D90300753016 /* open.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE0D1FEB25493FF000611185 /* dns.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dns.scpt; sourceTree = "<group>"; };
 		AE32DAEB227EDE37003FDB06 /* Open App Document.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open App Document.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE32DAEE227EDE37003FDB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE32DAF0227EDE37003FDB06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +34,9 @@
 		AE32DAFE227EE722003FDB06 /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
 		AE32DB04227EE890003FDB06 /* MainListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListVC.swift; sourceTree = "<group>"; };
 		AE32DB05227EE890003FDB06 /* MainListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainListVC.xib; sourceTree = "<group>"; };
+		AE750F61259C257E00D3D969 /* home.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = home.sh; sourceTree = "<group>"; };
+		AE750F62259C257F00D3D969 /* company.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = company.sh; sourceTree = "<group>"; };
+		AE7714E62549437F000BC748 /* dns.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dns.sh; sourceTree = "<group>"; };
 		AECFA9842282C27100753016 /* ps.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ps.sh; sourceTree = "<group>"; };
 		AECFA9862282D90300753016 /* open.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = open.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +74,10 @@
 				AE32DAEE227EDE37003FDB06 /* AppDelegate.swift */,
 				AECFA9842282C27100753016 /* ps.sh */,
 				AECFA9862282D90300753016 /* open.sh */,
+				AE0D1FEB25493FF000611185 /* dns.scpt */,
+				AE7714E62549437F000BC748 /* dns.sh */,
+				AE750F62259C257F00D3D969 /* company.sh */,
+				AE750F61259C257E00D3D969 /* home.sh */,
 				AE32DAF0227EDE37003FDB06 /* ViewController.swift */,
 				AE32DAF2227EDE38003FDB06 /* Assets.xcassets */,
 				AE32DAF4227EDE38003FDB06 /* Main.storyboard */,
@@ -145,8 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE32DB07227EE890003FDB06 /* MainListVC.xib in Resources */,
+				AE750F63259C257F00D3D969 /* home.sh in Resources */,
+				AE0D1FEC25493FF000611185 /* dns.scpt in Resources */,
+				AE750F64259C257F00D3D969 /* company.sh in Resources */,
 				AECFA9852282C27100753016 /* ps.sh in Resources */,
 				AE32DAF3227EDE38003FDB06 /* Assets.xcassets in Resources */,
+				AE7714E72549437F000BC748 /* dns.sh in Resources */,
 				AECFA9872282D90300753016 /* open.sh in Resources */,
 				AE32DAF6227EDE38003FDB06 /* Main.storyboard in Resources */,
 			);
@@ -300,9 +316,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FIndAppDocument/FIndAppDocument.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 52P572D3WP;
 				INFOPLIST_FILE = FIndAppDocument/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,6 +327,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.higgs.FIndAppDocument;
 				PRODUCT_NAME = "Open App Document";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -320,9 +337,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FIndAppDocument/FIndAppDocument.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 52P572D3WP;
 				INFOPLIST_FILE = FIndAppDocument/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,6 +348,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.higgs.FIndAppDocument;
 				PRODUCT_NAME = "Open App Document";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

@@ -42,6 +42,35 @@ class MainListVC: NSViewController,NSTableViewDelegate,NSTableViewDataSource {
         getAllPS()
     }
     
+    @IBAction func cleanCDN(btn:NSButton){
+        /// 执行apple script脚本，让apple脚本执行shell，来执行sudo
+        runTask(launchPath: "/usr/bin/osascript", arguments: ["-e","do shell script \"sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder;\" with administrator privileges"]) {
+            
+        }
+    }
+    
+    @IBAction func setCompanyDNS(btn:NSButton){
+        let paPath = Bundle.main.path(forResource: "company", ofType: "sh") ?? ""
+        runTask(launchPath: "/bin/sh", arguments: [paPath]) {[weak self] in
+            self?.showMessage(msg: "公司IP设置成功")
+        }
+    }
+    
+    @IBAction func setHomeDNS(btn:NSButton){
+        let paPath = Bundle.main.path(forResource: "home", ofType: "sh") ?? ""
+        runTask(launchPath: "/bin/sh", arguments: [paPath]) {[weak self] in
+            self?.showMessage(msg: "家庭IP设置成功")
+        }
+    }
+    
+    private func showMessage(msg:String){
+        let alert = NSAlert.init()
+        alert.messageText = msg
+        alert.addButton(withTitle: "确定")
+        alert.alertStyle = .warning
+        alert.runModal()
+    }
+    
     func getAllPS() {
         let paPath = Bundle.main.path(forResource: "ps", ofType: "sh") ?? ""
         runTask(launchPath: "/bin/sh", arguments: [paPath]) {
@@ -118,7 +147,14 @@ class MainListVC: NSViewController,NSTableViewDelegate,NSTableViewDataSource {
         let task = Process.init()
         task.launchPath = launchPath
         task.arguments = arguments
-        task.launch()
+//        task.launch()
+//        try? task.run()
+        if #available(macOS 10.13, *) {
+            try? task.run()
+        } else {
+            task.launch()
+        }
+        task.waitUntilExit()
         DispatchQueue.global().async {
             task.waitUntilExit()
             DispatchQueue.main.async {
